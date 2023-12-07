@@ -1,0 +1,15 @@
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.csproj.AssemblyReference.cache
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.AssemblyInfoInputs.cache
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.AssemblyInfo.cs
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.csproj.CoreCompileInputs.cache
+D:\תשפד\Server\Project_Api\FileServices\bin\Debug\net6.0\FileServices.deps.json
+D:\תשפד\Server\Project_Api\FileServices\bin\Debug\net6.0\FileServices.dll
+D:\תשפד\Server\Project_Api\FileServices\bin\Debug\net6.0\FileServices.pdb
+D:\תשפד\Server\Project_Api\FileServices\bin\Debug\net6.0\AllModels.dll
+D:\תשפד\Server\Project_Api\FileServices\bin\Debug\net6.0\AllModels.pdb
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.csproj.CopyComplete
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.dll
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\refint\FileServices.dll
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\FileServices.pdb
+D:\תשפד\Server\Project_Api\FileServices\obj\Debug\net6.0\ref\FileServices.dll

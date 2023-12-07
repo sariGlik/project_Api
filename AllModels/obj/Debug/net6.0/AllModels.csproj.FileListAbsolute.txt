@@ -1,0 +1,12 @@
+D:\תשפד\Server\Project_Api\AllModels\bin\Debug\net6.0\AllModels.deps.json
+D:\תשפד\Server\Project_Api\AllModels\bin\Debug\net6.0\AllModels.dll
+D:\תשפד\Server\Project_Api\AllModels\bin\Debug\net6.0\AllModels.pdb
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.csproj.AssemblyReference.cache
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.AssemblyInfoInputs.cache
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.AssemblyInfo.cs
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.csproj.CoreCompileInputs.cache
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.dll
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\refint\AllModels.dll
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\AllModels.pdb
+D:\תשפד\Server\Project_Api\AllModels\obj\Debug\net6.0\ref\AllModels.dll

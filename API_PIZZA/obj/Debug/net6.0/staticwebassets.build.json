@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "n7uY+g18LsmqmSnjjtOtSR2vP0k5alrLN2s3nwPSwqM=",
+  "Source": "API_PIZZA",
+  "BasePath": "_content/API_PIZZA",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API_PIZZA\\wwwroot",
+      "Source": "API_PIZZA",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\css\\sitePizza.css",
+      "SourceId": "API_PIZZA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "RelativePath": "css/sitePizza.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sitePizza.css"
+    },
+    {
+      "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\index.html",
+      "SourceId": "API_PIZZA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\js\\sitePizza.js",
+      "SourceId": "API_PIZZA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "RelativePath": "js/sitePizza.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sitePizza.js"
+    }
+  ]
+}

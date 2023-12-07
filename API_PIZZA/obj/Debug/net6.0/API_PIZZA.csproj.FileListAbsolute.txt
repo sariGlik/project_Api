@@ -1,0 +1,115 @@
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.AssemblyReference.cache
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.GeneratedMSBuildEditorConfig.editorconfig
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfoInputs.cache
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfo.cs
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CoreCompileInputs.cache
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cs
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cache
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\appsettings.Development.json
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\appsettings.json
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\API_PIZZA.exe
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\API_PIZZA.deps.json
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\API_PIZZA.runtimeconfig.json
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\API_PIZZA.dll
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\API_PIZZA.pdb
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\תשפד\Server\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\staticwebassets.build.json
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\staticwebassets.development.json
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\scopedcss\bundle\API_PIZZA.styles.css
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CopyComplete
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.dll
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\refint\API_PIZZA.dll
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.pdb
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\API_PIZZA.genruntimeconfig.cache
+D:\תשפד\Server\API_PIZZA\obj\Debug\net6.0\ref\API_PIZZA.dll
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.AssemblyReference.cache
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.GeneratedMSBuildEditorConfig.editorconfig
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfoInputs.cache
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfo.cs
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CoreCompileInputs.cache
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cs
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cache
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.dll
+H:\API_PIZZA\obj\Debug\net6.0\refint\API_PIZZA.dll
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.pdb
+H:\API_PIZZA\bin\Debug\net6.0\appsettings.Development.json
+H:\API_PIZZA\bin\Debug\net6.0\appsettings.json
+H:\API_PIZZA\bin\Debug\net6.0\API_PIZZA.exe
+H:\API_PIZZA\bin\Debug\net6.0\API_PIZZA.deps.json
+H:\API_PIZZA\bin\Debug\net6.0\API_PIZZA.runtimeconfig.json
+H:\API_PIZZA\bin\Debug\net6.0\API_PIZZA.dll
+H:\API_PIZZA\bin\Debug\net6.0\API_PIZZA.pdb
+H:\API_PIZZA\bin\Debug\net6.0\Microsoft.OpenApi.dll
+H:\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\API_PIZZA\obj\Debug\net6.0\staticwebassets.build.json
+H:\API_PIZZA\obj\Debug\net6.0\staticwebassets.development.json
+H:\API_PIZZA\obj\Debug\net6.0\scopedcss\bundle\API_PIZZA.styles.css
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CopyComplete
+H:\API_PIZZA\obj\Debug\net6.0\API_PIZZA.genruntimeconfig.cache
+H:\API_PIZZA\obj\Debug\net6.0\ref\API_PIZZA.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\appsettings.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\API_PIZZA.exe
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\API_PIZZA.deps.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\API_PIZZA.runtimeconfig.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\API_PIZZA.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\API_PIZZA.pdb
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfo.cs
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\scopedcss\bundle\API_PIZZA.styles.css
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CopyComplete
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\refint\API_PIZZA.dll
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.pdb
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\API_PIZZA.genruntimeconfig.cache
+C:\Users\The user\Desktop\שרי גליק\API_PIZZA\obj\Debug\net6.0\ref\API_PIZZA.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.AssemblyReference.cache
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.GeneratedMSBuildEditorConfig.editorconfig
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfoInputs.cache
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.AssemblyInfo.cs
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CoreCompileInputs.cache
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cache
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\refint\API_PIZZA.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.pdb
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.MvcApplicationPartsAssemblyInfo.cs
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\appsettings.Development.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\appsettings.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.exe
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.deps.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.runtimeconfig.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.pdb
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\AllModels.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\AllService.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\AllModels.pdb
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\AllService.pdb
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\staticwebassets.build.json
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\staticwebassets.development.json
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\scopedcss\bundle\API_PIZZA.styles.css
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.csproj.CopyComplete
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\API_PIZZA.genruntimeconfig.cache
+D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\ref\API_PIZZA.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\FileServices.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\FileServices.pdb
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.staticwebassets.runtime.json

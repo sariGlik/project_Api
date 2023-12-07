@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API_PIZZA</title>
+</head>
+<body>
+    <form>
+    <input type="text" id="id" placeholder="id" style="display: none;">
+    <input type="text" id="name" placeholder="name" style="display: none;">
+    <input type="text" id="isgluten" placeholder="IsGluten" style="display: none;">
+    </form>
+
+    <button id="up_date1" style="display: none;"  onclick="getIdPizza()" >Update></button>
+    <button id="up_date2" style="display: none;"  onclick="PutPizza()"   >Update></button>
+    <button id="up_date3" style="display: none;"  onclick="PostPizza()"  >Update></button>
+    <button id="up_date4" style="display: none;"  onclick="deletee()"  >Update></button>
+
+
+    <button onclick="getAllPizzas()">Get</button>
+    <button onclick="getPizzaById()">GetById</button>
+    <button onclick="PutPizzaInTheList()">Put</button>
+    <button onclick="PostPizzaToTheList()">Post</button>
+    <button onclick="deleteFromTheList()">Delete</button>
+    <table>
+        <thead>
+            <tr>
+                <th >  ID </th>
+                <th >  Name</th>
+                <th >  IsGluten</th>
+            </tr>
+        </thead>
+        <tbody id="pizzatbody">
+        </tbody>
+    </table>
+   <script src="./js/sitePizza.js"></script>
+</body>
+</html>

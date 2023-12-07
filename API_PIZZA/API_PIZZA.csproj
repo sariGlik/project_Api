@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+ <ItemGroup>
+    <ProjectReference Include="..\AllModels\AllModels.csproj" />
+    <ProjectReference Include="..\AllService\AllService.csproj" />
+    <ProjectReference Include="..\FileServices\FileServices.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+</Project>

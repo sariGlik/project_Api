@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AllModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AllModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AllModels.dll": {}
+        }
+      },
+      "FileServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AllModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FileServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileServices.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AllModels/1.0.0": {
+      "type": "project",
+      "path": "../AllModels/AllModels.csproj",
+      "msbuildProject": "../AllModels/AllModels.csproj"
+    },
+    "FileServices/1.0.0": {
+      "type": "project",
+      "path": "../FileServices/FileServices.csproj",
+      "msbuildProject": "../FileServices/FileServices.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AllModels >= 1.0.0",
+      "FileServices >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\The user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\תשפד\\Server\\Project_Api\\AllService\\AllService.csproj",
+      "projectName": "AllService",
+      "projectPath": "D:\\תשפד\\Server\\Project_Api\\AllService\\AllService.csproj",
+      "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+      "outputPath": "D:\\תשפד\\Server\\Project_Api\\AllService\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\תשפד\\Server\\Project_Api\\AllModels\\AllModels.csproj": {
+              "projectPath": "D:\\תשפד\\Server\\Project_Api\\AllModels\\AllModels.csproj"
+            },
+            "D:\\תשפד\\Server\\Project_Api\\FileServices\\FileServices.csproj": {
+              "projectPath": "D:\\תשפד\\Server\\Project_Api\\FileServices\\FileServices.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.320\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
