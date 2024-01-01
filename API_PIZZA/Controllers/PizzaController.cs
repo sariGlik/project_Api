@@ -12,9 +12,13 @@ namespace API_PIZZA.Controllers;
     public class PizzaController : ControllerBase
     {
         private IPizza _PizzaService;
+
+      
         public PizzaController(IPizza pizzaService)
         {
             _PizzaService = pizzaService;
+           
+            
         }
         [HttpGet]
         public List<Pizza> Get()
@@ -26,7 +30,7 @@ namespace API_PIZZA.Controllers;
         {
             var p = _PizzaService.GetPizzaId(id);
             return p;
-
+          
         }
         [HttpPut("{id}/{name}")]
         public ActionResult<Pizza> PutPizza(int id, string name)
@@ -38,19 +42,19 @@ namespace API_PIZZA.Controllers;
                 return NotFound();
         }
         [HttpDelete("{id}")]
-        public ActionResult DeletePizza(int id)
+        public IActionResult DeletePizza(int id)
         {
-            _PizzaService.DeleteThePizza(id);
-            return Ok();
+            var p = _PizzaService.GetPizzaId(id);
+           if(p is null)
+           return NotFound();
+           _PizzaService.DeleteThePizza(id);
+           return NoContent();
         }
         [HttpPost]
-        public ActionResult<List<Pizza>>PostPizza(Pizza pizza)
+        public ActionResult PostPizza(Pizza pizza)
         {
-            var p = _PizzaService.UpdatePizza(pizza);
-            if (p != null)
-                return p;
-            else
-                return NotFound();
+             _PizzaService.UpdatePizza(pizza);
+            return Ok();
         }
     }
 

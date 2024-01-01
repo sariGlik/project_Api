@@ -2,6 +2,9 @@ let basicUrl='https://localhost:7076/api/Pizza/';
 const id_=document.getElementById("id");
 const name_=document.getElementById("name");
 const isGluten_=document.getElementById("isgluten");
+const upDate1= document.getElementById("up_date1");
+const upDate2=document.getElementById("up_date2");
+const upDate3=document.getElementById("up_date3");
 //GET ALL
 function getAllPizzas()
 {
@@ -30,11 +33,13 @@ function fillPizzaList(pizzaList) {
 //ע"י ID
 function getPizzaById()
 {
- id_.style.display="block";
- document.getElementById("up_date1").style.display="block";
+upDate3.style.display="none";
+upDate2.style.display="none";
+id_.style.display="block";
+upDate1.style.display="block";
 }
 function getIdPizza(){
- const id_value=id_.value.trim();
+    const id_value=id_.value.trim();
     fetch(`${basicUrl}${id_value}`)
     .then((res) => res.json()) 
     .then((data) => printPizza(data)) 
@@ -58,9 +63,11 @@ function printPizza(pizza){
 //PUT
 function PutPizzaInTheList()
 {
+    upDate1.style.display="none";
+    upDate3.style.display="none";
     id_.style.display="block";
     name_.style.display="block";
-    document.getElementById("up_date2").style.display="block";
+    upDate2.style.display="block";
 }
 function PutPizza(){
     const id_val=id_.value.trim();
@@ -79,19 +86,17 @@ function PutPizza(){
 }
 //POST
 function PostPizzaToTheList()
-{
-    isGluten_.style.display="block";
-    name_.style.display="block";
-    document.getElementById("up_date3").style.display="block";
+{    
+     upDate1.style.display="none";
+     upDate2.style.display="none";
+     isGluten_.style.display="block";
+     name_.style.display="block";
+     upDate3.style.display="block";
 }
-function PostPizza(){
+    function PostPizza(){
     const namev=name_.value.trim();
     const glutenv=isGluten_.value.trim();
-    const Pizza={
-        Name:namev,
-        isGluten:glutenv,
-    }
-  let json=`{\"name\": \" ${namev}\", \"gluten\": \ ${glutenv}\}`;
+    let json=`{\"name\": \" ${namev}\", \"gluten\": \ ${glutenv}\}`;
     fetch(`${basicUrl}`,
     {
         method: 'POST',
@@ -102,11 +107,10 @@ function PostPizza(){
         body:json,
         redirect: "follow",
       })
-    .then((res) => res.json()) 
+    .then((res) => res.text()) 
     .then((result)=>{
-        if(result.includes("400")){
+        if(result.includes("400"))
             alert("faild to add!!")
-        }
         else{
             alert("The pizza has been successfully added");
         }
@@ -120,20 +124,14 @@ function deleteFromTheList()
     document.getElementById("up_date4").style.display="block";
 }
 function deletee()
-{  
-   const idv=id_.value.trim();
+{    var myHeaders = new Headers();
+    const idv=id_.value.trim();
     fetch(`${basicUrl}${idv}`, {
-       method:'DELETE'
+       method:'DELETE',
+       headers: myHeaders,
+       redirect: "follow",
       })
-    .then((result)=>{
-    if(result.includes("405"))
-    {
-        alert("faild to delete!!")
-    }
-    else
-    {
-      alert("delete");
-    }
-    })
-    .catch(err => console.log(err));
+      .then((res) => res.text()) 
+      .then((data) => console.log(data)) 
+      .catch(err=>{console.log(err)})
 }

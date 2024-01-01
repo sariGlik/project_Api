@@ -11,7 +11,10 @@ namespace AllModels.Interfaces
     {
      
     public string FilePath { get ; set ; }
-     void WriteMessage(string message);
-    // public void Update<T>(List<T> list);
+    void WriteMessage(string message);
+    public void AddItem<T>(T item);
+    public List<T> Get<T>();
+    public void Update<T>(List<T> list);
+
     }
 }

@@ -113,3 +113,11 @@ D:\תשפד\Server\Project_Api\API_PIZZA\obj\Debug\net6.0\ref\API_PIZZA.dll
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\FileServices.dll
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\FileServices.pdb
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\API_PIZZA.staticwebassets.runtime.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\File\filePizza.json
