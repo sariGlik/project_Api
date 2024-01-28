@@ -1,4 +1,3 @@
-
 using Microsoft.AspNetCore.Mvc;
 using AllService;
 using AllModels;
@@ -12,15 +11,12 @@ namespace API_PIZZA.Controllers;
     public class PizzaController : ControllerBase
     {
         private IPizza _PizzaService;
-
-      
         public PizzaController(IPizza pizzaService)
         {
             _PizzaService = pizzaService;
-           
-            
         }
         [HttpGet]
+        
         public List<Pizza> Get()
         {
             return _PizzaService.GetPizza();
@@ -33,6 +29,7 @@ namespace API_PIZZA.Controllers;
           
         }
         [HttpPut("{id}/{name}")]
+       [Authorize(Policy = "SuperWorker")]
         public ActionResult<Pizza> PutPizza(int id, string name)
         {
             var p = _PizzaService.AddPizza(id, name);
@@ -42,6 +39,7 @@ namespace API_PIZZA.Controllers;
                 return NotFound();
         }
         [HttpDelete("{id}")]
+        [Authorize(Policy = "SuperWorker")]
         public IActionResult DeletePizza(int id)
         {
             var p = _PizzaService.GetPizzaId(id);
@@ -51,6 +49,7 @@ namespace API_PIZZA.Controllers;
            return NoContent();
         }
         [HttpPost]
+        [Authorize(Policy = "SuperWorker")]
         public ActionResult PostPizza(Pizza pizza)
         {
              _PizzaService.UpdatePizza(pizza);

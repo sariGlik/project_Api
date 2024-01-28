@@ -2,13 +2,12 @@
 using AllModels;
 using AllModels.Interfaces;
 using AllService;
-
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_PIZZA.Controllers;
     [ApiController]
-
     [Route("Api/[controller]")]
+    [Authorize(Policy = "Admin")]
     public class WorkerContrller:ControllerBase
     {
         private IWorker _workerService;
