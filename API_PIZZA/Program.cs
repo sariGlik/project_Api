@@ -1,16 +1,26 @@
-using Microsoft.Extensions.DependencyInjection;
 using AllModels;
+using FileServices;
 using AllModels.Interfaces;
 using AllService;
 using Microsoft.Extensions.FileProviders;
-using FileServices;
-using MiddleWares.Extensions;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft;
-using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Text;
+using MiddleWares.Extensions;
+// using Microsoft.Extensions.DependencyInjection;
+// using MiddleWares.Extensions;
+// using Microsoft.AspNetCore.Authentication.JwtBearer;
+// using Microsoft;
+// using Microsoft.OpenApi.Models;
+// using Microsoft.AspNetCore.Builder;
+// using Microsoft.AspNetCore.Hosting;
+// using Microsoft.Extensions.Hosting;
+// using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
  
@@ -25,13 +35,14 @@ builder.Services.AddTransient<IOrder,OrderService>();
 builder.Services.AddSingleton<IFile,FileService>();
 builder.Services.AddSingleton<ILog,LogService>();
 builder.Services.AddScoped<Iidentity, IdentityService>();
+
 builder.Services.AddAuthentication(options =>
     {
         options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     }).AddJwtBearer(cfg =>
         {
         cfg.RequireHttpsMetadata = false;
-        cfg.TokenValidationParameters = IdentityService.GetTokenValidationParameters();
+            cfg.TokenValidationParameters = IdentityService.GetTokenValidationParameters();
          });
 builder.Services.AddAuthorization(cfg =>
     {

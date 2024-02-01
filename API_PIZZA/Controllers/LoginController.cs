@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AllModels;
-using AllModels.Interfaces;
+using AllModels.Interfaces;                       
 using AllService;
 
 namespace API_PIZZA.Controllers;
@@ -31,7 +31,6 @@ namespace API_PIZZA.Controllers;
             if(token == null)
                 throw new UnauthorizedAccessException("Unauthorized");
             return new OkObjectResult(new JwtSecurityTokenHandler().WriteToken(token));
-           
         }
        
     }

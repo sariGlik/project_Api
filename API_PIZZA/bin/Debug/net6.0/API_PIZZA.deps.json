@@ -176,6 +176,9 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "System.Security.Cryptography.Cng/4.5.0": {},
       "AllModels/1.0.0": {
+        "dependencies": {
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
+        },
         "runtime": {
           "AllModels.dll": {}
         }
@@ -183,7 +186,8 @@
       "AllService/1.0.0": {
         "dependencies": {
           "AllModels": "1.0.0",
-          "FileServices": "1.0.0"
+          "FileServices": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "runtime": {
           "AllService.dll": {}

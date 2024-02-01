@@ -9,8 +9,8 @@ namespace AllModels.Interfaces
   
     public interface IFile
     {
-     
-    public string FilePath { get ; set ; }
+    public string FileName { get; set; }
+    // public string FilePath { get ; set ; }
     void WriteMessage(string message);
     public void AddItem<T>(T item);
     public List<T> Get<T>();

@@ -3,7 +3,10 @@
   <ItemGroup>
     <ProjectReference Include="..\AllModels\AllModels.csproj" />
     <ProjectReference Include="..\FileServices\FileServices.csproj" />
-   
+  </ItemGroup>
+
+  <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
   </ItemGroup>
 
   <PropertyGroup>

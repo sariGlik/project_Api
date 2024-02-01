@@ -2,6 +2,7 @@
 using AllModels;
 using AllModels.Interfaces;
 using AllService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_PIZZA.Controllers;
@@ -19,14 +20,15 @@ namespace API_PIZZA.Controllers;
         [HttpGet]
         public List  <Worker> Get()
         {
-            return _workerService.GetWorker();
+            return _workerService.GetWorkers();
         }
-        [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
-        {
-            _workerService.DeleteWorker(id);
-            return Ok();
-        }
+    }  
+        //[HttpDelete("{id}")]
+        // public ActionResult Delete(int id)
+        // {
+        //     _workerService.DeleteWorker(id);
+        //     return Ok();
+        // }
 
-}
+
 

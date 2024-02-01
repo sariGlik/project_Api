@@ -53,15 +53,6 @@ namespace AllService;
             return;
             pizzas.Remove(pizza);
           _fileService.Update(pizzas);
-
-            // foreach (var Pizza in pizzas)
-            // {
-            //    if (Pizza.Id == id)
-            //    {
-            //    pizzas.Remove(Pizza);
-           
-            //    }
-            // }
         }
         public void UpdatePizza(Pizza pizza)
         {

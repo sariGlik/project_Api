@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n7uY+g18LsmqmSnjjtOtSR2vP0k5alrLN2s3nwPSwqM=",
+  "Hash": "CrzU9oOmFCBR8G6zYIppvT1E4ns6vH7W4HEUqbZ8XVA=",
   "Source": "API_PIZZA",
   "BasePath": "_content/API_PIZZA",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\css\\sitePizza.css"
     },
     {
+      "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\home.html",
+      "SourceId": "API_PIZZA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "RelativePath": "home.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.html"
+    },
+    {
       "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\index.html",
       "SourceId": "API_PIZZA",
       "SourceType": "Discovered",
@@ -49,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\js\\login.js",
+      "SourceId": "API_PIZZA",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\",
+      "BasePath": "_content/API_PIZZA",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "D:\\תשפד\\Server\\Project_Api\\API_PIZZA\\wwwroot\\js\\sitePizza.js",

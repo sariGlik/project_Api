@@ -121,3 +121,4 @@ D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityMode
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\File\filePizza.json
+D:\תשפד\Server\Project_Api\API_PIZZA\bin\Debug\net6.0\File\fileWorker.json

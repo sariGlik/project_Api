@@ -8,21 +8,22 @@ using AllModels.Interfaces;
 namespace FileServices;
 public class FileService:IFile
 {
+        public string FileName { get; set; }
+
         public string FilePath { get ; set ; }
         public FileService()
         {
-            this.FilePath = Path.Combine(Environment.CurrentDirectory, "File", "filePizza.json");
+            this.FilePath = Path.Combine(Environment.CurrentDirectory, "File");
         }
         public void WriteMessage(string message)
         {
-            if (File.Exists(FilePath))
-            {
-                File.WriteAllText(FilePath, $" {message}");// {DateTime.Now}
-            }
+           
+          File.WriteAllText(Path.Combine(FilePath, FileName), $" {message}");
+
         }
 
            public void AddItem<T>(T item){
-            string json = File.ReadAllText(FilePath);
+            string json = File.ReadAllText(Path.Combine(FilePath, FileName));
             var TList = JsonSerializer.Deserialize<List<T>>(json);
             TList.Add(item);
             json=JsonSerializer.Serialize(TList);
@@ -30,7 +31,7 @@ public class FileService:IFile
         }
            public List<T> Get<T>()
           {
-            string json = File.ReadAllText(FilePath);
+            string json = File.ReadAllText(Path.Combine(FilePath, FileName));
             var TList = JsonSerializer.Deserialize<List<T>>(json);
             if (TList != null)
                 return TList;
